@@ -1,0 +1,108 @@
+{
+  "selection_dataset_role": "Exploratory classroom experiment. Original nine test subjects and their labels are reused for hyperparameter selection. No independent subject test claim. Fresh noise seeds only check sensitivity to noise realizations.",
+  "selected": [
+    {
+      "view": "separately_tuned",
+      "key": "B0_K0_L0_B0",
+      "method": "B0",
+      "k": 0,
+      "lambda": 0.0,
+      "beta": 0.0,
+      "target_score": 0.8798995977608879,
+      "clean_score": 0.9357352426744091
+    },
+    {
+      "view": "separately_tuned",
+      "key": "B1_K60_L0_B0",
+      "method": "B1",
+      "k": 60,
+      "lambda": 0.0,
+      "beta": 0.0,
+      "target_score": 0.8995039728742139,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "separately_tuned",
+      "key": "B2_K60_L0_B0.05",
+      "method": "B2",
+      "k": 60,
+      "lambda": 0.0,
+      "beta": 0.05,
+      "target_score": 0.8997250671726768,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "separately_tuned",
+      "key": "A1_K60_L0.05_B0",
+      "method": "A1",
+      "k": 60,
+      "lambda": 0.05,
+      "beta": 0.0,
+      "target_score": 0.8997088812866814,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "separately_tuned",
+      "key": "P_K60_L0.25_B0.1",
+      "method": "P",
+      "k": 60,
+      "lambda": 0.25,
+      "beta": 0.1,
+      "target_score": 0.9071151805609944,
+      "clean_score": 0.9329507688899925
+    },
+    {
+      "view": "matched_ablation",
+      "key": "B0_K0_L0_B0",
+      "method": "B0",
+      "k": 0,
+      "lambda": 0.0,
+      "beta": 0.0,
+      "target_score": 0.8798995977608879,
+      "clean_score": 0.9357352426744091
+    },
+    {
+      "view": "matched_ablation",
+      "key": "B1_K60_L0_B0",
+      "method": "B1",
+      "k": 60,
+      "lambda": 0.0,
+      "beta": 0.0,
+      "target_score": 0.8995039728742139,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "matched_ablation",
+      "key": "B2_K60_L0_B0.1",
+      "method": "B2",
+      "k": 60,
+      "lambda": 0.0,
+      "beta": 0.1,
+      "target_score": 0.899569005337823,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "matched_ablation",
+      "key": "A1_K60_L0.25_B0",
+      "method": "A1",
+      "k": 60,
+      "lambda": 0.25,
+      "beta": 0.0,
+      "target_score": 0.8995496415612599,
+      "clean_score": 0.9382211299314758
+    },
+    {
+      "view": "matched_ablation",
+      "key": "P_K60_L0.25_B0.1",
+      "method": "P",
+      "k": 60,
+      "lambda": 0.25,
+      "beta": 0.1,
+      "target_score": 0.9071151805609944,
+      "clean_score": 0.9329507688899925
+    }
+  ],
+  "locked_before_fresh_noise_grid": true,
+  "search_seconds": 78.94541460000005,
+  "objective": "mean_of_per_subject_six_class_macro_f1_on_reused_test_subjects_at_gaussian20"
+}

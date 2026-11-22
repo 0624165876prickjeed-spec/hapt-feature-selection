@@ -1,0 +1,14 @@
+{
+  "base_config": "protocol_v1.json",
+  "implementation": {
+    "run_id": "formal_v1",
+    "scratch_root": "work/hapt_runtime",
+    "result_relative_path": "results/formal_v1",
+    "numeric": {"relative_constant_tolerance": 1e-12, "stability_std_floor_multiplier": 0.1},
+    "validation_weights": {"clean": 0.5, "20": 0.25, "10": 0.25},
+    "smoke": {"training_subjects": [1, 3, 5], "validation_subjects": [6], "records_per_subject": 1, "max_windows_per_subject_class": 40, "k": 20, "lambda": 0.5, "noise_snr_db": 20},
+    "plots": {"dpi": 300, "font_family": "DejaVu Sans", "figure_width_inches": 9.2, "figure_height_inches": 5.8, "colors": ["#000000", "#0072B2", "#E69F00", "#009E73", "#CC79A7"], "markers": ["o", "s", "^", "D", "v"], "formats": ["png", "svg"], "ablation_snr_db": 20},
+    "timing_benchmark": {"windows": 512, "seed": 90210},
+    "checks": {"metric_seed": 8128, "noise_seed": 6174, "reference_snr_db": 10}
+  }
+}

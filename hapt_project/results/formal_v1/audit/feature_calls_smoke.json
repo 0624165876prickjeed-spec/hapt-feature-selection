@@ -1,0 +1,66 @@
+[
+  {
+    "cache_key": "78eb2396f1e55843b826b3e531a5f48f8328c8890cfce89edaa79d3219deed54",
+    "windows": 471,
+    "noise": null,
+    "feature_seconds": 0.04720799997448921
+  },
+  {
+    "cache_key": "c8a191ea25c306e09988bdf2c8e58bc72d09dd12c149ac87220ce6f6ae486e14",
+    "windows": 471,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.07559589995071292
+  },
+  {
+    "cache_key": "46925e58671a38014a525959ea21e2f9ff35ffb11fb96271d188a5792cf12a7f",
+    "windows": 471,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.07059050002135336
+  },
+  {
+    "cache_key": "b99341e3fb591ef3e9d9306c8e6237a2929e043db51a31b75a8958a8ce5081d8",
+    "windows": 471,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.06783990003168583
+  },
+  {
+    "cache_key": "d9dd21a8b78cfc68b2dd3b41d211f8af6dfab719fbd5f398bf6d2429957d34f4",
+    "windows": 157,
+    "noise": null,
+    "feature_seconds": 0.020131299970671535
+  },
+  {
+    "cache_key": "dba42ed5c06593360dd6e425703f7d96437dc4d2fc78cb2502296a79a3e54f5f",
+    "windows": 157,
+    "noise": {
+      "stage": "validation",
+      "fold": 0,
+      "root": 701,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.031065500108525157
+  }
+]

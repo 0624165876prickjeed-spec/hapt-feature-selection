@@ -1,0 +1,8 @@
+{
+  "conditions": 41,
+  "models": 54,
+  "subject_metric_rows": 19926,
+  "prediction_rows": 6177060,
+  "configuration_sha256": "57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375",
+  "no_fit_during_final_evaluation": true
+}

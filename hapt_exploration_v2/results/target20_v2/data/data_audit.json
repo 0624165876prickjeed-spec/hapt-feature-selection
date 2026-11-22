@@ -1,0 +1,13 @@
+{
+  "archive_sha256": "4ac4ae064227c07045a99551876b54d204837e995e298b6488559e209b3deb09",
+  "records": 61,
+  "window_counts": {
+    "grid_windows": 17453,
+    "retained": 9718
+  },
+  "discarded_grid_windows": 7735,
+  "subject_overlap_count": 0,
+  "record_overlap_count": 0,
+  "window_rule_hash": "718ea12282ad3c3aae3c86038d96088b27e3ce492d6735f77b59699c675b4cfa",
+  "test_access": "structural_integrity_and_manifest_only_before_freeze"
+}

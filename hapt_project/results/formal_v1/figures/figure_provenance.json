@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "dpi": 300,
+    "font_family": "DejaVu Sans",
+    "figure_width_inches": 9.2,
+    "figure_height_inches": 5.8,
+    "colors": [
+      "#000000",
+      "#0072B2",
+      "#E69F00",
+      "#009E73",
+      "#CC79A7"
+    ],
+    "markers": [
+      "o",
+      "s",
+      "^",
+      "D",
+      "v"
+    ],
+    "formats": [
+      "png",
+      "svg"
+    ],
+    "ablation_snr_db": 20
+  },
+  "captions": [
+    {
+      "figure": "gaussian_robustness",
+      "source": "tables/figure_source_scores.csv",
+      "view": "deployment",
+      "uncertainty": "95% percentile CI from 2000 resamples of 9 subjects after averaging training/noise repeats",
+      "snr": "training-record-centered reference power, not per-window adaptive SNR"
+    },
+    {
+      "figure": "impulse_robustness",
+      "source": "tables/figure_source_scores.csv",
+      "view": "deployment",
+      "uncertainty": "95% percentile CI from 2000 resamples of 9 subjects after averaging training/noise repeats",
+      "snr": "training-record-centered reference power, not per-window adaptive SNR"
+    },
+    {
+      "figure": "clean_performance",
+      "source": "tables/figure_source_scores.csv",
+      "view": "deployment",
+      "uncertainty": "95% subject-bootstrap CI, 2000 resamples; clean has no artificial noise repeats"
+    },
+    {
+      "figure": "matched_k",
+      "source": "tables/figure_source_scores.csv",
+      "condition": "gaussian 20 dB",
+      "uncertainty": "95% subject-bootstrap CI; see protocol for seed averaging"
+    },
+    {
+      "figure": "fixed_lambda_k",
+      "source": "tables/figure_source_scores.csv",
+      "condition": "gaussian 20 dB",
+      "uncertainty": "95% subject-bootstrap CI; see protocol for seed averaging"
+    },
+    {
+      "figure": "full_clean_confusion",
+      "source": "tables/figure_source_confusion.csv",
+      "uncertainty": "No error bars; pooled window counts averaged over 3 training seeds then row-normalized; not the subject-mean metric"
+    }
+  ],
+  "missing_condition_policy": "All predeclared conditions required, no interpolation",
+  "scope": "Course experiment, no journal-specific compliance claim"
+}

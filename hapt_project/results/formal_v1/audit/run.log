@@ -1,0 +1,85 @@
+2026-10-28 15:37:19,159 INFO Command=check; configuration_sha256=57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375; available_memory_GiB=1.743
+2026-10-28 15:37:19,159 WARNING Available memory below planned 2 GiB threshold; sequential record processing and condition caches remain enabled
+2026-10-28 15:37:25,828 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-28 15:37:25,909 INFO Implementation checks passed: ['constant_signal_analytic_features', 'known_sinusoid_rms_peak_and_correlation', 'metrics_match_sklearn_and_perfect_case', 'selection_effect_tie_and_k_clipping', 'record_noise_repeat_overlap_and_expected_power', 'short_segments_and_window_boundaries', 'subject_record_split_disjointness', 'nonfinite_input_rejected', 'final_test_predictions_computed']
+2026-10-28 15:37:26,007 INFO Command complete: check wall_seconds=6.753 sampled_peak_RSS_MiB=127.22
+2026-10-28 15:38:12,491 INFO Command=smoke; configuration_sha256=57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375; available_memory_GiB=1.837
+2026-10-28 15:38:12,491 WARNING Available memory below planned 2 GiB threshold; sequential record processing and condition caches remain enabled
+2026-10-28 15:38:19,047 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-28 15:38:19,945 INFO Development-only smoke passed: classifier train=469 validation=157 windows; all 5 methods
+2026-10-28 15:38:20,040 INFO Command complete: smoke wall_seconds=7.458 sampled_peak_RSS_MiB=130.20
+2026-10-28 15:40:25,248 INFO Command=train; configuration_sha256=57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375; available_memory_GiB=1.901
+2026-10-28 15:40:25,248 WARNING Available memory below planned 2 GiB threshold; sequential record processing and condition caches remain enabled
+2026-10-28 15:40:29,285 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-28 15:40:29,290 INFO CV seed=101 fold=0: fitting statistics on 14 subjects only
+2026-10-28 15:40:36,249 INFO CV completed seed=101 fold=0, candidates=25
+2026-10-28 15:40:36,249 INFO CV seed=101 fold=1: fitting statistics on 14 subjects only
+2026-10-28 15:40:46,071 INFO CV completed seed=101 fold=1, candidates=25
+2026-10-28 15:40:46,072 INFO CV seed=101 fold=2: fitting statistics on 14 subjects only
+2026-10-28 15:40:56,148 INFO CV completed seed=101 fold=2, candidates=25
+2026-10-28 15:40:56,148 INFO CV seed=202 fold=0: fitting statistics on 14 subjects only
+2026-10-28 15:41:03,581 INFO CV completed seed=202 fold=0, candidates=25
+2026-10-28 15:41:03,581 INFO CV seed=202 fold=1: fitting statistics on 14 subjects only
+2026-10-28 15:41:11,521 INFO CV completed seed=202 fold=1, candidates=25
+2026-10-28 15:41:11,521 INFO CV seed=202 fold=2: fitting statistics on 14 subjects only
+2026-10-28 15:41:19,458 INFO CV completed seed=202 fold=2, candidates=25
+2026-10-28 15:41:19,458 INFO CV seed=303 fold=0: fitting statistics on 14 subjects only
+2026-10-28 15:41:26,680 INFO CV completed seed=303 fold=0, candidates=25
+2026-10-28 15:41:26,680 INFO CV seed=303 fold=1: fitting statistics on 14 subjects only
+2026-10-28 15:41:34,671 INFO CV completed seed=303 fold=1, candidates=25
+2026-10-28 15:41:34,671 INFO CV seed=303 fold=2: fitting statistics on 14 subjects only
+2026-10-28 15:41:42,716 INFO CV completed seed=303 fold=2, candidates=25
+2026-10-28 15:41:53,128 INFO Final training completed seed=101, unique frozen models=18
+2026-10-28 15:42:02,819 INFO Final training completed seed=202, unique frozen models=18
+2026-10-28 15:42:12,526 INFO Final training completed seed=303, unique frozen models=18
+2026-10-28 15:42:12,693 INFO Command complete: train wall_seconds=107.303 sampled_peak_RSS_MiB=189.90
+2026-10-28 15:43:46,702 INFO Command=evaluate; configuration_sha256=57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375; available_memory_GiB=1.490
+2026-10-28 15:43:46,702 WARNING Available memory below planned 2 GiB threshold; sequential record processing and condition caches remain enabled
+2026-10-28 15:43:53,688 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-28 15:43:55,072 INFO Final evaluation: clean, 2790 windows x 54 frozen models
+2026-10-28 15:43:56,502 INFO Final evaluation: gaussian_snr30_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:43:57,980 INFO Final evaluation: gaussian_snr30_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:43:59,343 INFO Final evaluation: gaussian_snr30_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:00,808 INFO Final evaluation: gaussian_snr30_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:02,306 INFO Final evaluation: gaussian_snr30_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:03,828 INFO Final evaluation: gaussian_snr20_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:05,291 INFO Final evaluation: gaussian_snr20_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:06,829 INFO Final evaluation: gaussian_snr20_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:08,287 INFO Final evaluation: gaussian_snr20_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:09,672 INFO Final evaluation: gaussian_snr20_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:10,701 INFO Final evaluation: gaussian_snr10_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:12,141 INFO Final evaluation: gaussian_snr10_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:13,662 INFO Final evaluation: gaussian_snr10_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:15,044 INFO Final evaluation: gaussian_snr10_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:16,472 INFO Final evaluation: gaussian_snr10_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:17,884 INFO Final evaluation: gaussian_snr0_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:19,341 INFO Final evaluation: gaussian_snr0_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:20,867 INFO Final evaluation: gaussian_snr0_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:22,363 INFO Final evaluation: gaussian_snr0_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:23,859 INFO Final evaluation: gaussian_snr0_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:25,376 INFO Final evaluation: gaussian_snr-5_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:26,917 INFO Final evaluation: gaussian_snr-5_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:28,501 INFO Final evaluation: gaussian_snr-5_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:30,020 INFO Final evaluation: gaussian_snr-5_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:31,536 INFO Final evaluation: gaussian_snr-5_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:32,919 INFO Final evaluation: impulse_snr20_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:34,322 INFO Final evaluation: impulse_snr20_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:35,575 INFO Final evaluation: impulse_snr20_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:36,729 INFO Final evaluation: impulse_snr20_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:37,894 INFO Final evaluation: impulse_snr20_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:39,278 INFO Final evaluation: impulse_snr10_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:40,670 INFO Final evaluation: impulse_snr10_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:42,108 INFO Final evaluation: impulse_snr10_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:43,585 INFO Final evaluation: impulse_snr10_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:45,096 INFO Final evaluation: impulse_snr10_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:46,575 INFO Final evaluation: impulse_snr0_seed1101, 2790 windows x 54 frozen models
+2026-10-28 15:44:48,066 INFO Final evaluation: impulse_snr0_seed2202, 2790 windows x 54 frozen models
+2026-10-28 15:44:49,401 INFO Final evaluation: impulse_snr0_seed3303, 2790 windows x 54 frozen models
+2026-10-28 15:44:50,882 INFO Final evaluation: impulse_snr0_seed4404, 2790 windows x 54 frozen models
+2026-10-28 15:44:52,352 INFO Final evaluation: impulse_snr0_seed5505, 2790 windows x 54 frozen models
+2026-10-28 15:44:57,263 INFO Command complete: evaluate wall_seconds=70.423 sampled_peak_RSS_MiB=166.86
+2026-10-28 15:46:33,367 INFO Command=plot; configuration_sha256=57c9cfbda525ea15a62bd784ce0742df7c1d1fd9c3c0d4c8032c3a9feebd9375; available_memory_GiB=1.686
+2026-10-28 15:46:33,368 WARNING Available memory below planned 2 GiB threshold; sequential record processing and condition caches remain enabled
+2026-10-28 15:46:39,922 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-28 15:46:45,297 INFO Aggregated tables and figures generated
+2026-10-28 15:46:45,388 INFO Command complete: plot wall_seconds=11.932 sampled_peak_RSS_MiB=338.27

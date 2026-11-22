@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-28T07:43:46.700501+00:00",
+  "finished_utc": "2026-10-28T07:44:57.124070+00:00",
+  "wall_seconds": 70.4230694998987,
+  "sampled_peak_rss_bytes": 174968832,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpu_count": 24,
+  "total_memory_bytes": 16573128704,
+  "available_memory_bytes_end": 1634820096,
+  "command": "evaluate",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  }
+}

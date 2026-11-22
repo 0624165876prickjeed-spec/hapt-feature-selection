@@ -1,0 +1,200 @@
+{
+  "protocol_version": "A-HAPT-1.0",
+  "status": "design_frozen_for_implementation_not_yet_model_evaluated",
+  "language": "Python",
+  "dataset": {
+    "uci_id": 341,
+    "readme_version": "2.1",
+    "name": "Smartphone-Based Recognition of Human Activities and Postural Transitions",
+    "repository_url": "https://archive.ics.uci.edu/dataset/341/smartphone+based+recognition+of+human+activities+and+postural+transitions",
+    "download_url": "https://archive.ics.uci.edu/static/public/341/smartphone+based+recognition+of+human+activities+and+postural+transitions.zip",
+    "local_archive": "work/hapt-341.zip",
+    "sha256": "4ac4ae064227c07045a99551876b54d204837e995e298b6488559e209b3deb09",
+    "archive_bytes": 79596192,
+    "allowed_usage": "noncommercial_course_analysis_with_attribution",
+    "license_evidence": {
+      "uci_webpage": "CC BY 4.0",
+      "archive_readme": "attribution_required_and_any_commercial_use_prohibited",
+      "policy": "record_both_statements_use_noncommercially_attribute_and_document_changes_no_commercial_license_conclusion"
+    },
+    "use_precomputed_561_features": false,
+    "record_pattern_acc": "RawData/acc_exp{experiment_id:02d}_user{subject_id:02d}.txt",
+    "record_pattern_gyro": "RawData/gyro_exp{experiment_id:02d}_user{subject_id:02d}.txt",
+    "labels_file": "RawData/labels.txt",
+    "label_columns": ["experiment_id", "subject_id", "activity_id", "start_sample", "end_sample"],
+    "sampling_hz": 50,
+    "channels": ["acc_x", "acc_y", "acc_z", "gyro_x", "gyro_y", "gyro_z"],
+    "units": ["g", "g", "g", "rad/s", "rad/s", "rad/s"],
+    "classes": {
+      "1": "WALKING",
+      "2": "WALKING_UPSTAIRS",
+      "3": "WALKING_DOWNSTAIRS",
+      "4": "SITTING",
+      "5": "STANDING",
+      "6": "LAYING"
+    },
+    "exclude_classes": [7, 8, 9, 10, 11, 12],
+    "nonfinite_policy": "abort_and_log_no_silent_imputation"
+  },
+  "split": {
+    "unit": "subject_all_records_before_window_generation",
+    "development_subjects": [1, 3, 5, 6, 7, 8, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 30],
+    "test_subjects": [2, 4, 9, 10, 12, 13, 18, 20, 24],
+    "validation_subject_folds": [
+      [1, 6, 11, 16, 21, 25, 28],
+      [3, 7, 14, 17, 22, 26, 29],
+      [5, 8, 15, 19, 23, 27, 30]
+    ],
+    "test_fit_allowed": false,
+    "test_parameter_selection_allowed": false
+  },
+  "window": {
+    "length_samples": 128,
+    "stride_samples": 64,
+    "record_grid_origin": 0,
+    "guard_samples": 10,
+    "conservative_label_interval": "python_zero_based_half_open_[label_start+10,label_end-10)",
+    "keep_rule": "whole_window_inside_exactly_one_allowed_class_interval",
+    "cross_record_windows": false,
+    "cross_label_windows": false,
+    "merge_label_segments": false,
+    "expected_development_windows": 6928,
+    "expected_test_windows": 2790,
+    "expected_development_class_counts": {"1": 1149, "2": 972, "3": 879, "4": 1231, "5": 1352, "6": 1345},
+    "expected_test_class_counts": {"1": 463, "2": 431, "3": 378, "4": 475, "5": 528, "6": 515}
+  },
+  "features": {
+    "version": "raw6-66-v1",
+    "dtype": "float64",
+    "pre_filter": null,
+    "per_channel_order": ["mean", "std_ddof0", "rms", "iqr", "mean_energy", "spectral_entropy", "dominant_frequency", "band_0p5_3", "band_3_8", "band_8_20"],
+    "correlation_pair_order": [[0, 1], [0, 2], [1, 2], [3, 4], [3, 5], [4, 5]],
+    "dimension_before_training_constant_mask": 66,
+    "quantile_method": "linear",
+    "amplitude_tolerance": "1e-12*max(1,abs(window_channel_mean))",
+    "spectrum": {
+      "center_window": true,
+      "window_function": "symmetric_hann_0.5-0.5*cos(2*pi*n/127)",
+      "fft_length": 128,
+      "drop_dc": true,
+      "retained_bins": [1, 64],
+      "one_sided_power": true,
+      "double_interior_bins": [1, 63],
+      "nyquist_not_doubled": true,
+      "entropy_normalizer": "ln(64)",
+      "bands_hz": [[0.5, 3], [3, 8], [8, 20]],
+      "band_right_inclusive": [false, false, true],
+      "degenerate_spectrum_output": 0
+    }
+  },
+  "training_statistics": {
+    "fit_scope": "current_training_subjects_only_refit_every_fold",
+    "constant_threshold": "std_ddof0<=1e-12*max(1,abs(training_mean))",
+    "mi": {"estimator": "mutual_info_classif", "discrete_features": false, "n_neighbors": 3, "n_jobs": 1, "fit_on": "clean_training_standardized_features", "normalizer": "divide_by_max_or_all_zero_if_max_nonpositive"},
+    "stability": {
+      "noise_type": "gaussian",
+      "reference_snr_db": 20,
+      "replicates": [0, 1, 2],
+      "scale": "max(training_iqr,0.1*training_std,1e-12*max(1,abs(training_mean)))",
+      "raw_penalty": "median_over_windows_and_replicates(abs(noisy_feature-clean_feature))/scale",
+      "bounded_penalty": "raw_penalty/(1+raw_penalty)"
+    },
+    "redundancy": "mean_absolute_clean_training_pearson_with_selected_features_empty_set_zero"
+  },
+  "selection": {
+    "k_grid": [20, 40, 60],
+    "lambda_grid": [0.25, 0.5, 1.0],
+    "beta_fixed": 0.1,
+    "greedy_score": "normalized_mi-lambda*bounded_stability-beta*redundancy",
+    "score_tie_tolerance": 1e-12,
+    "tie_break": "smallest_original_feature_index",
+    "effective_k": "min(requested_k,training_valid_dimension)",
+    "select_negative_score_features_until_budget": true,
+    "zero_valid_features_policy": "abort"
+  },
+  "classifier": {
+    "scaler": "StandardScaler",
+    "scaler_fit_on": "clean_current_training_selected_features",
+    "class_name": "LinearSVC",
+    "parameters": {"C": 1.0, "penalty": "l2", "loss": "squared_hinge", "dual": false, "tol": 0.0001, "max_iter": 20000, "class_weight": null, "fit_intercept": true},
+    "convergence_retry_max_iter": 100000,
+    "main_training_data_augmentation": false
+  },
+  "methods": [
+    {"id": "B0", "selection": "all_valid_features", "lambda": 0, "beta": 0},
+    {"id": "B1", "selection": "mi", "lambda": 0, "beta": 0},
+    {"id": "B2", "selection": "mi_redundancy", "lambda": 0, "beta": 0.1},
+    {"id": "A1", "selection": "mi_stability", "lambda": "training_cv_grid", "beta": 0},
+    {"id": "P", "selection": "mi_stability_redundancy", "lambda": "training_cv_grid", "beta": 0.1}
+  ],
+  "noise": {
+    "injection_location": "continuous_raw_record_before_windowing_and_features",
+    "reuse_noise_for_overlapping_samples": true,
+    "share_noise_across_methods_k_lambda_and_training_repeats": true,
+    "reference_power": "sample_weighted_training_record_centered_power_over_union_of_conservative_allowed_class_intervals",
+    "reference_power_fit_on": "current_training_subjects_only",
+    "reference_snr_definition": "10*log10(training_reference_power/expected_noise_power)",
+    "noise_variance": "training_reference_power*10**(-snr_db/10)",
+    "record_adaptive_rescaling": false,
+    "window_adaptive_rescaling": false,
+    "gaussian": {"mean": 0, "independent_across_samples_and_channels": true},
+    "impulse": {"bernoulli_probability": 0.01, "conditional_variance_multiplier": 100, "independent_across_samples_and_channels": true},
+    "validation": {"types": ["gaussian"], "snr_db": [20, 10], "include_clean": true},
+    "final_gaussian_snr_db": [30, 20, 10, 0, -5],
+    "final_impulse_snr_db": [20, 10, 0],
+    "include_final_clean": true,
+    "record_realized_snr_as_diagnostic_only": true
+  },
+  "randomness": {
+    "generator": "numpy.default_rng_with_SeedSequence",
+    "training_roots": [101, 202, 303],
+    "validation_noise_roots": [701, 702],
+    "test_noise_roots": [1101, 2202, 3303, 4404, 5505],
+    "bootstrap_root": 99001,
+    "noise_entropy_order": ["root_seed", "stage_id", "fold_id", "experiment_id", "subject_id", "noise_type_id", "snr_db_plus_100", "replicate_id"],
+    "stages": {"training_stability": 11, "validation": 21, "final_test": 31},
+    "noise_type_ids": {"gaussian": 1, "impulse": 2},
+    "full_training_and_test_fold_id": 99,
+    "validation_and_test_replicate_id": 0,
+    "python_hash_seeding_allowed": false
+  },
+  "model_selection": {
+    "objective": "0.5*subject_mean_macro_f1_clean+0.25*subject_mean_macro_f1_gaussian20+0.25*subject_mean_macro_f1_gaussian10",
+    "fold_aggregation": "equal_weight_three_folds_each_seven_subjects",
+    "validation_noise_aggregation": "mean_over_validation_noise_roots",
+    "score_tie_tolerance": 0.0001,
+    "tie_break_order": ["higher_clean_validation_score", "smaller_k", "smaller_lambda"],
+    "select_separately_per_training_root": true,
+    "report_all_k_matched_comparisons": true,
+    "report_best_k_chosen_on_training_cv": true,
+    "fixed_lambda_diagnostic": {"enabled": true, "lambda": 0.5, "methods": ["A1", "P"], "k": [20, 40, 60]},
+    "optional_noise_augmented_baseline_enabled": false
+  },
+  "evaluation": {
+    "primary_metric": "mean_over_test_subjects_of_six_class_macro_f1",
+    "label_order": [1, 2, 3, 4, 5, 6],
+    "zero_division": 0,
+    "secondary_metrics": ["pooled_macro_f1", "accuracy", "per_class_recall", "confusion_matrix", "clean_to_noisy_drop", "five_level_gaussian_mean", "matched_k_differences", "feature_count", "fold_feature_jaccard", "timing", "peak_rss"],
+    "gaussian_summary_weights": [0.2, 0.2, 0.2, 0.2, 0.2],
+    "bootstrap": {"unit": "subject", "paired": true, "replicates": 2000, "confidence_level": 0.95, "method": "percentile", "average_training_and_noise_repeats_within_subject_before_resampling": true},
+    "clean_noise_replicates": 1,
+    "training_repeats": 3,
+    "test_noise_repeats": 5,
+    "test_runs_only_after_freeze": true
+  },
+  "resources": {
+    "numeric_threads": 1,
+    "n_jobs": 1,
+    "parallel_experiments": 1,
+    "raw_record_processing": "sequential",
+    "feature_batch_windows": 512,
+    "hold_all_noise_conditions_in_memory": false,
+    "target_peak_rss_bytes": 1610612736,
+    "minimum_available_memory_bytes": 2147483648,
+    "max_cv_classifier_fits": 225,
+    "max_final_classifier_fits": 57,
+    "timing_warmup_repetitions": 1,
+    "timing_measured_repetitions": 5,
+    "matplotlib_config_dir": "work/matplotlib-cache"
+  }
+}

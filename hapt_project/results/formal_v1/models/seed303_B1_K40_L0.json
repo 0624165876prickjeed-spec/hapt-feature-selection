@@ -1,0 +1,458 @@
+{
+  "selected_indices": [
+    3,
+    4,
+    2,
+    10,
+    13,
+    1,
+    23,
+    34,
+    32,
+    33,
+    31,
+    53,
+    51,
+    52,
+    54,
+    14,
+    12,
+    30,
+    43,
+    44,
+    42,
+    41,
+    11,
+    0,
+    21,
+    7,
+    20,
+    6,
+    5,
+    22,
+    24,
+    9,
+    40,
+    27,
+    50,
+    16,
+    25,
+    56,
+    26,
+    17
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "original_index": 3,
+      "score": 1.0,
+      "mi": 1.0,
+      "stability": 0.10907953842447847,
+      "redundancy": 0.0
+    },
+    {
+      "step": 2,
+      "original_index": 4,
+      "score": 0.8692517020671406,
+      "mi": 0.8692517020671406,
+      "stability": 0.017587555499663593,
+      "redundancy": 0.4814072489862402
+    },
+    {
+      "step": 3,
+      "original_index": 2,
+      "score": 0.8692464025412467,
+      "mi": 0.8692464025412467,
+      "stability": 0.026542124534661315,
+      "redundancy": 0.7144107753765784
+    },
+    {
+      "step": 4,
+      "original_index": 10,
+      "score": 0.8680007832070215,
+      "mi": 0.8680007832070215,
+      "stability": 0.005553963868902787,
+      "redundancy": 0.7120849514245102
+    },
+    {
+      "step": 5,
+      "original_index": 13,
+      "score": 0.8573054699754732,
+      "mi": 0.8573054699754732,
+      "stability": 0.15272666467590232,
+      "redundancy": 0.573423953489623
+    },
+    {
+      "step": 6,
+      "original_index": 1,
+      "score": 0.8553935589732432,
+      "mi": 0.8553935589732432,
+      "stability": 0.10684736042419378,
+      "redundancy": 0.6645656384973522
+    },
+    {
+      "step": 7,
+      "original_index": 23,
+      "score": 0.8139736858939557,
+      "mi": 0.8139736858939557,
+      "stability": 0.15184380010424786,
+      "redundancy": 0.6484729826340311
+    },
+    {
+      "step": 8,
+      "original_index": 34,
+      "score": 0.7598070770793051,
+      "mi": 0.7598070770793051,
+      "stability": 0.007311110015239106,
+      "redundancy": 0.5801235531478536
+    },
+    {
+      "step": 9,
+      "original_index": 32,
+      "score": 0.7595685677817435,
+      "mi": 0.7595685677817435,
+      "stability": 0.026166696441799985,
+      "redundancy": 0.7254181778859459
+    },
+    {
+      "step": 10,
+      "original_index": 33,
+      "score": 0.7525061691450841,
+      "mi": 0.7525061691450841,
+      "stability": 0.053489776919376945,
+      "redundancy": 0.7470986525405752
+    },
+    {
+      "step": 11,
+      "original_index": 31,
+      "score": 0.747238742400762,
+      "mi": 0.747238742400762,
+      "stability": 0.029151460682182925,
+      "redundancy": 0.7826611290866531
+    },
+    {
+      "step": 12,
+      "original_index": 53,
+      "score": 0.7327128714018579,
+      "mi": 0.7327128714018579,
+      "stability": 0.049255441562155396,
+      "redundancy": 0.7196390840567787
+    },
+    {
+      "step": 13,
+      "original_index": 51,
+      "score": 0.7162217115142097,
+      "mi": 0.7162217115142097,
+      "stability": 0.026807241564314136,
+      "redundancy": 0.767868926580177
+    },
+    {
+      "step": 14,
+      "original_index": 52,
+      "score": 0.7151993766657588,
+      "mi": 0.7151993766657588,
+      "stability": 0.02585900752782268,
+      "redundancy": 0.7844324001565466
+    },
+    {
+      "step": 15,
+      "original_index": 54,
+      "score": 0.7149560715798904,
+      "mi": 0.7149560715798904,
+      "stability": 0.006325671769151686,
+      "redundancy": 0.6700446074298093
+    },
+    {
+      "step": 16,
+      "original_index": 14,
+      "score": 0.7054170906179038,
+      "mi": 0.7054170906179038,
+      "stability": 0.013667245578563764,
+      "redundancy": 0.344157810523819
+    },
+    {
+      "step": 17,
+      "original_index": 12,
+      "score": 0.7051280548689826,
+      "mi": 0.7051280548689826,
+      "stability": 0.016336080804010947,
+      "redundancy": 0.29069829929116003
+    },
+    {
+      "step": 18,
+      "original_index": 30,
+      "score": 0.7047359286785797,
+      "mi": 0.7047359286785797,
+      "stability": 0.10911111278145522,
+      "redundancy": 0.08034540733020726
+    },
+    {
+      "step": 19,
+      "original_index": 43,
+      "score": 0.6977077295915244,
+      "mi": 0.6977077295915244,
+      "stability": 0.05352303832379276,
+      "redundancy": 0.6477827906705336
+    },
+    {
+      "step": 20,
+      "original_index": 44,
+      "score": 0.6919739876714148,
+      "mi": 0.6919739876714148,
+      "stability": 0.00812490949503914,
+      "redundancy": 0.5503661496559977
+    },
+    {
+      "step": 21,
+      "original_index": 42,
+      "score": 0.6918136463111018,
+      "mi": 0.6918136463111018,
+      "stability": 0.029202744339649936,
+      "redundancy": 0.6839958482982389
+    },
+    {
+      "step": 22,
+      "original_index": 41,
+      "score": 0.6899409713302214,
+      "mi": 0.6899409713302214,
+      "stability": 0.030125950361300932,
+      "redundancy": 0.6963976079420648
+    },
+    {
+      "step": 23,
+      "original_index": 11,
+      "score": 0.6865974019051664,
+      "mi": 0.6865974019051664,
+      "stability": 0.12852308012550362,
+      "redundancy": 0.7283208755632331
+    },
+    {
+      "step": 24,
+      "original_index": 0,
+      "score": 0.6831363592262957,
+      "mi": 0.6831363592262957,
+      "stability": 0.02115049425590473,
+      "redundancy": 0.4519998244277907
+    },
+    {
+      "step": 25,
+      "original_index": 21,
+      "score": 0.6637135730274133,
+      "mi": 0.6637135730274133,
+      "stability": 0.13273184254061163,
+      "redundancy": 0.70717118789841
+    },
+    {
+      "step": 26,
+      "original_index": 7,
+      "score": 0.6637036164542286,
+      "mi": 0.6637036164542286,
+      "stability": 0.05910444672636578,
+      "redundancy": 0.6392787570187148
+    },
+    {
+      "step": 27,
+      "original_index": 20,
+      "score": 0.6472061870696482,
+      "mi": 0.6472061870696482,
+      "stability": 0.00573740053598323,
+      "redundancy": 0.45580500042344774
+    },
+    {
+      "step": 28,
+      "original_index": 6,
+      "score": 0.6369167709082463,
+      "mi": 0.6369167709082463,
+      "stability": 0.28571428571428575,
+      "redundancy": 0.2563610171173724
+    },
+    {
+      "step": 29,
+      "original_index": 5,
+      "score": 0.6087146772730331,
+      "mi": 0.6087146772730331,
+      "stability": 0.10738892745885707,
+      "redundancy": 0.451640943723746
+    },
+    {
+      "step": 30,
+      "original_index": 22,
+      "score": 0.5567859973060577,
+      "mi": 0.5567859973060577,
+      "stability": 0.013627450217862483,
+      "redundancy": 0.26414622316777575
+    },
+    {
+      "step": 31,
+      "original_index": 24,
+      "score": 0.5567844717878395,
+      "mi": 0.5567844717878395,
+      "stability": 0.010284022156000687,
+      "redundancy": 0.3304522099557859
+    },
+    {
+      "step": 32,
+      "original_index": 9,
+      "score": 0.535268806852595,
+      "mi": 0.535268806852595,
+      "stability": 0.1453149243568496,
+      "redundancy": 0.47737627497360285
+    },
+    {
+      "step": 33,
+      "original_index": 40,
+      "score": 0.5350219447563819,
+      "mi": 0.5350219447563819,
+      "stability": 0.16725574555306602,
+      "redundancy": 0.07109252405357123
+    },
+    {
+      "step": 34,
+      "original_index": 27,
+      "score": 0.441574581771142,
+      "mi": 0.441574581771142,
+      "stability": 0.12353491943133371,
+      "redundancy": 0.48787069337469113
+    },
+    {
+      "step": 35,
+      "original_index": 50,
+      "score": 0.434211325887944,
+      "mi": 0.434211325887944,
+      "stability": 0.14188138551473836,
+      "redundancy": 0.14281126768170727
+    },
+    {
+      "step": 36,
+      "original_index": 16,
+      "score": 0.4003844500071935,
+      "mi": 0.4003844500071935,
+      "stability": 0.25,
+      "redundancy": 0.08836544642912726
+    },
+    {
+      "step": 37,
+      "original_index": 25,
+      "score": 0.3841294192710278,
+      "mi": 0.3841294192710278,
+      "stability": 0.17478004277587772,
+      "redundancy": 0.363866828503129
+    },
+    {
+      "step": 38,
+      "original_index": 56,
+      "score": 0.38087806026282545,
+      "mi": 0.38087806026282545,
+      "stability": 0.0,
+      "redundancy": 0.06830239402148115
+    },
+    {
+      "step": 39,
+      "original_index": 26,
+      "score": 0.3717102974001968,
+      "mi": 0.3717102974001968,
+      "stability": 0.2,
+      "redundancy": 0.1377508274704679
+    },
+    {
+      "step": 40,
+      "original_index": 17,
+      "score": 0.3593910946363116,
+      "mi": 0.3593910946363116,
+      "stability": 0.14198457954711383,
+      "redundancy": 0.41823295886950757
+    }
+  ],
+  "configuration": {
+    "training_seed": 303,
+    "key": "B1_K40_L0",
+    "method": "B1",
+    "k": 40,
+    "lambda": 0,
+    "beta": 0,
+    "objective": 0.8284055289025831,
+    "clean_score": 0.9241822619434612
+  },
+  "training_seed": 303,
+  "timing": {
+    "selection_seconds": 0.0016573001630604267,
+    "classifier_fit_seconds": 0.21919990004971623,
+    "convergence_retries": 0
+  },
+  "fit_subject_ids": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    11,
+    14,
+    15,
+    16,
+    17,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "reference_power": [
+    0.17036950209051568,
+    0.14703755769839005,
+    0.11445124837320689,
+    0.1760170513634794,
+    0.16815411175974007,
+    0.06918216970042972
+  ],
+  "feature_names": [
+    "acc_x_iqr",
+    "acc_x_mean_energy",
+    "acc_x_rms",
+    "acc_y_mean",
+    "acc_y_iqr",
+    "acc_x_std_ddof0",
+    "acc_z_iqr",
+    "gyro_x_mean_energy",
+    "gyro_x_rms",
+    "gyro_x_iqr",
+    "gyro_x_std_ddof0",
+    "gyro_z_iqr",
+    "gyro_z_std_ddof0",
+    "gyro_z_rms",
+    "gyro_z_mean_energy",
+    "acc_y_mean_energy",
+    "acc_y_rms",
+    "gyro_x_mean",
+    "gyro_y_iqr",
+    "gyro_y_mean_energy",
+    "gyro_y_rms",
+    "gyro_y_std_ddof0",
+    "acc_y_std_ddof0",
+    "acc_x_mean",
+    "acc_z_std_ddof0",
+    "acc_x_band_0p5_3",
+    "acc_z_mean",
+    "acc_x_dominant_frequency",
+    "acc_x_spectral_entropy",
+    "acc_z_rms",
+    "acc_z_mean_energy",
+    "acc_x_band_8_20",
+    "gyro_y_mean",
+    "acc_z_band_0p5_3",
+    "gyro_z_mean",
+    "acc_y_dominant_frequency",
+    "acc_z_spectral_entropy",
+    "gyro_z_dominant_frequency",
+    "acc_z_dominant_frequency",
+    "acc_y_band_0p5_3"
+  ],
+  "views": [
+    "matched_k40"
+  ]
+}

@@ -1,0 +1,668 @@
+[
+  {
+    "cache_key": "0d1df7be72abdc8a18982cbfcda354fb679c74cf36b964aecfc675cfe5a528df",
+    "windows": 4526,
+    "noise": null,
+    "feature_seconds": 0.21799770020879805
+  },
+  {
+    "cache_key": "d613d252299276d9ce0bfd225e4108912c44edb6b2cb77318102d7e541b6dccc",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.28065390000119805
+  },
+  {
+    "cache_key": "3068a1c9f04d65c90399dfbf9ef3ef63540062d744928717c8fd6e440473b727",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.29145250003784895
+  },
+  {
+    "cache_key": "43b36dfb72c14f3dbb20665a01fb13cba3ad0d403a369e26c683d79e91414264",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.29320290009491146
+  },
+  {
+    "cache_key": "b462d1d2cb96bc9bea1391613f9280d3c05292b80ffdb1407e04aa022992ecd7",
+    "windows": 2402,
+    "noise": null,
+    "feature_seconds": 0.23438100004568696
+  },
+  {
+    "cache_key": "a0a52611f6b2244815e67b62138f6bc0116ae575d6cdbe40803d3715de9e87b1",
+    "windows": 2402,
+    "noise": {
+      "stage": "validation",
+      "fold": 0,
+      "root": 701,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.2949997999239713
+  },
+  {
+    "cache_key": "4c55eefef8d8dcab5935eac56da6ec55769390db468c523b1e9e99926db73d2e",
+    "windows": 2402,
+    "noise": {
+      "stage": "validation",
+      "fold": 0,
+      "root": 702,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.2890627000015229
+  },
+  {
+    "cache_key": "727751656f7bc5b2e474eb066f13f5498712b8a524b551051b18fd45555f3c5e",
+    "windows": 2402,
+    "noise": {
+      "stage": "validation",
+      "fold": 0,
+      "root": 701,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.28291289997287095
+  },
+  {
+    "cache_key": "422a3f03e884641a56a161f12172fc9fbf3102d36473a3a05a92fd7b75b13975",
+    "windows": 2402,
+    "noise": {
+      "stage": "validation",
+      "fold": 0,
+      "root": 702,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3037882999051362
+  },
+  {
+    "cache_key": "3a19cc2de1a884734a579181361cacb97e1e4e980f925fd603b95962d2b17f09",
+    "windows": 4671,
+    "noise": null,
+    "feature_seconds": 0.5330546998884529
+  },
+  {
+    "cache_key": "4d945c3d2b085b051b9f2db71db739de2ced4a64acd657dce528e2aecbab8cb8",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.6350337001495063
+  },
+  {
+    "cache_key": "86ca5a68d714899ef86efe3ad369fab35764077ae0647f4196b5b8b2eeef1b81",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.7165046001318842
+  },
+  {
+    "cache_key": "274f7523db5db96e80190bf290ee110b6a15217cbeff6bfc73093e5231fe2136",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.6020680000074208
+  },
+  {
+    "cache_key": "82553bf755492d2f8b80f98fc344ddfa251ca367b7c7d64b1211265a8d1dde2b",
+    "windows": 2257,
+    "noise": null,
+    "feature_seconds": 0.23159429989755154
+  },
+  {
+    "cache_key": "dbd37ca00f42d31b8ff8d3cbdafee2c23270208348a52ba3d5e7e21d6d860d0f",
+    "windows": 2257,
+    "noise": {
+      "stage": "validation",
+      "fold": 1,
+      "root": 701,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3124601999297738
+  },
+  {
+    "cache_key": "f7a594b1560a16f68e877e41f312c660c4d4e41e979f1be7a88ed5285cdf2d94",
+    "windows": 2257,
+    "noise": {
+      "stage": "validation",
+      "fold": 1,
+      "root": 702,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3299736001063138
+  },
+  {
+    "cache_key": "617a22927b6f96e10613ea63a92b476005821686c2a9bd580a4bd4958fc85f24",
+    "windows": 2257,
+    "noise": {
+      "stage": "validation",
+      "fold": 1,
+      "root": 701,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3097051000222564
+  },
+  {
+    "cache_key": "831880566221eb8d29a966c2cf767504cbfa615bb1204f31fcfb4f94687e5c45",
+    "windows": 2257,
+    "noise": {
+      "stage": "validation",
+      "fold": 1,
+      "root": 702,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.29522149986587465
+  },
+  {
+    "cache_key": "52fa1836b5e9a7f16379788c4367a266057d2d63adafa654bc272c354983bef4",
+    "windows": 4659,
+    "noise": null,
+    "feature_seconds": 0.45647040009498596
+  },
+  {
+    "cache_key": "6e4e0190b53378eaf338503d97656d0f754c9d67cb1a3c748a0b953c04dad4f1",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.6284326000604779
+  },
+  {
+    "cache_key": "a317ef27e8c75b3b265431261729de95d0e880474e43daf636c49405f7913131",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.6198334000073373
+  },
+  {
+    "cache_key": "96ace51b635847fdbf70d9faa2634a96c2ea1d79bd4fdc4d5b788951d7554d5d",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.6603979000356048
+  },
+  {
+    "cache_key": "39c1db894b5b739dac54487f3c6a23cdd5a296937de27c796dc837be20525d7a",
+    "windows": 2269,
+    "noise": null,
+    "feature_seconds": 0.24616120010614395
+  },
+  {
+    "cache_key": "194f8972d124f0bf75525818c93eeee1c38640dc513e2d4b090e2ce390b866cd",
+    "windows": 2269,
+    "noise": {
+      "stage": "validation",
+      "fold": 2,
+      "root": 701,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.2965956998523325
+  },
+  {
+    "cache_key": "533634d951359bdb9cb85e2e4b84f5c10f6a0bf14ae436b59a8ca13c12ca1cee",
+    "windows": 2269,
+    "noise": {
+      "stage": "validation",
+      "fold": 2,
+      "root": 702,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3031381000764668
+  },
+  {
+    "cache_key": "f9b4570fadd381bf22ae4baa90e743530089521f4a2e91e4ac18256580ffabcc",
+    "windows": 2269,
+    "noise": {
+      "stage": "validation",
+      "fold": 2,
+      "root": 701,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3307300000451505
+  },
+  {
+    "cache_key": "b1fd310b8000b9a0e3cb67c4d240e73c2ec4fb27c517e8d5493744bc6ff7c12c",
+    "windows": 2269,
+    "noise": {
+      "stage": "validation",
+      "fold": 2,
+      "root": 702,
+      "snr": 10,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.3214246998541057
+  },
+  {
+    "cache_key": "083c981313cf59b8df6fffb93365fa21977c0dcdfce962e760392064c24cb00d",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.604083799989894
+  },
+  {
+    "cache_key": "aeab0eb765e0e30b6faa0fade50a5304429b398e68862bccac976bc997fca689",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.6165646999143064
+  },
+  {
+    "cache_key": "2d6c46537c756028062291b839515f85f31eefec8b9caddab626cc3446428bf1",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.6165613001212478
+  },
+  {
+    "cache_key": "1e696e134e7598f5f843768d310cd48aadbe546fcf99239b399fbfb6d56ae468",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.6184221999719739
+  },
+  {
+    "cache_key": "9f59b75320cee649a15bf11c2120ab263628e2c44e69469aaff9bcc757f0d8ee",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.6502624999266118
+  },
+  {
+    "cache_key": "834eecf2a7e234ff89c8224ed393008d31393df6b22441d651105c1821d9436f",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.5895555999595672
+  },
+  {
+    "cache_key": "3634d905c295211217a86a335f7b84646e13c796bdb8d632043af79ac5fc9607",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.5609380998648703
+  },
+  {
+    "cache_key": "51fb6edf75a84e7c69db11566e7485254f1f031675911c9ebd5e03da5fe32eb1",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.5482822000049055
+  },
+  {
+    "cache_key": "96ff348779a3e8142d6b4fca0d2ce331ebd2ce63d918b8e9b02b3c6b893934a3",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.5741508998908103
+  },
+  {
+    "cache_key": "44c829ca070912e65f228c3d0e532127b5ee65af8d86cf92e519259c99fe4034",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.5617978000082076
+  },
+  {
+    "cache_key": "8f48ffd1e17534bc759c9936675510856e8983530a1a4264faf3dc1ef8e81c85",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.5222905001137406
+  },
+  {
+    "cache_key": "2245653794223853c7abcfd01b51a64181b0dcef03b101c466354c2fbe1f41dc",
+    "windows": 4526,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 0,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.5456423000432551
+  },
+  {
+    "cache_key": "bc621d2b27df3435eaba1d1d732710c63fa52352d3ff631b38ace22a0dc46c2f",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.6190507998690009
+  },
+  {
+    "cache_key": "41b8b254002ec43373776bb2128d8f4b7ff98e6b0b19189b6e364b963ed8b48b",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.65005819988437
+  },
+  {
+    "cache_key": "4c1525aff55313bb97b857b509326b3336978e363bb3d7c2480de3ad70097a6e",
+    "windows": 4671,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 1,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.6432086999993771
+  },
+  {
+    "cache_key": "6c7f9610d21ca00a92aa5ac2c7bfbadc93dabc70733ff8d8598d8a4d3a57697f",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.5809035000856966
+  },
+  {
+    "cache_key": "e34b0a05c6a5f246fa7f283fa787a719333e9f6083ddef47c5195740a1833111",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.5788166001439095
+  },
+  {
+    "cache_key": "a4733f5149b496acd5f92fa0336965a7d2eddeb0482c43d0b15193ae91765a35",
+    "windows": 4659,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 2,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.5949230000842363
+  },
+  {
+    "cache_key": "a084cb0da2d2c060fce7031515db6cb4cdff733546522b835129932eb0d1ca33",
+    "windows": 6928,
+    "noise": null,
+    "feature_seconds": 0.6611299000214785
+  },
+  {
+    "cache_key": "e9969778feb892f949d4cd6a36a01a2a891a6dc324531bbc7aa7265f01668b0b",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.9566818999592215
+  },
+  {
+    "cache_key": "40e0f13da8f73bc0b440b60f630b84e9f7adbf53f68cd16ebb738d24b742bc7c",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.9151630001142621
+  },
+  {
+    "cache_key": "ff2f8e6a3ebdb29b1b9ad78635378cda7ed686282035b739ce0afe61e20e49f0",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 101,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.8947183000855148
+  },
+  {
+    "cache_key": "50d21d2701acb7d36c1a0f6aa3e2b053c2b136c7e5b5004f6f45893f29494c82",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.8142233998514712
+  },
+  {
+    "cache_key": "eadef7e74d6019934c8a856497d91e51413f775d1491af29a7de7e83b25062f4",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.921396299963817
+  },
+  {
+    "cache_key": "7591cf37d12882549ed0dace6e6f23c753d0cc72bd41588eb8da99a84738a089",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 202,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.9592096998821944
+  },
+  {
+    "cache_key": "8aa67011292995876dc75215bf6912b575f6a0c9b46782eb536476c5c21bb97a",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 0
+    },
+    "feature_seconds": 0.9301726000849158
+  },
+  {
+    "cache_key": "682fc958524665ce323c77a251524a981f0901228092217de806633ad6d1a969",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 1
+    },
+    "feature_seconds": 0.9250406001228839
+  },
+  {
+    "cache_key": "30dcf274cac32a348da8933647f0d5eb1efa664adabed8f48cd2d180fcaeb2b6",
+    "windows": 6928,
+    "noise": {
+      "stage": "training_stability",
+      "fold": 99,
+      "root": 303,
+      "snr": 20,
+      "type": "gaussian",
+      "replicate": 2
+    },
+    "feature_seconds": 0.9108561999164522
+  }
+]

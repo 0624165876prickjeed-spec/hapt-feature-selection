@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tuning_subject_metrics_verified_with_sklearn": 16335,
+  "tuning_prediction_rows": 5063850,
+  "diagnostic_prediction_rows_verified": 2402190,
+  "diagnostic_model_condition_groups": 861,
+  "window_target_and_subject_coverage_verified": true,
+  "independent_subject_test": false
+}

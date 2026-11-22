@@ -1,0 +1,11 @@
+{
+  "constant_signal_analytic_features": true,
+  "known_sinusoid_rms_peak_and_correlation": true,
+  "metrics_match_sklearn_and_perfect_case": true,
+  "selection_effect_tie_and_k_clipping": true,
+  "record_noise_repeat_overlap_and_expected_power": true,
+  "short_segments_and_window_boundaries": true,
+  "subject_record_split_disjointness": true,
+  "nonfinite_input_rejected": true,
+  "final_test_predictions_computed": false
+}

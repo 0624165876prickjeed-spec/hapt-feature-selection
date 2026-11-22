@@ -1,0 +1,16 @@
+{
+  "configuration_and_model_sources_match_freeze": true,
+  "conditions_verified": 41,
+  "models_per_condition_verified": 54,
+  "prediction_rows_verified": 6177060,
+  "full_window_coverage_and_ground_truth_verified": true,
+  "confusion_matrices_recomputed_from_predictions": 2214,
+  "subject_macro_f1_independently_checked_against_sklearn": 1845,
+  "error_examples": 48,
+  "test_data_used_for_retuning": false,
+  "audit_wall_seconds": 32.43269779998809,
+  "purpose": "Post-evaluation integrity audit only; no model change or parameter selection.",
+  "fit_provenance_files_verified": 12,
+  "all_model_fit_subjects_verified": 54,
+  "configuration_snapshot_hash_verified": true
+}

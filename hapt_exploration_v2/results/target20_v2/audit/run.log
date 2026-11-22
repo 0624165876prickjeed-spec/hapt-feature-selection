@@ -1,0 +1,58 @@
+2026-10-29 13:21:44,232 INFO Data prepared: 61 records, 9718 windows; subject/record overlap=0
+2026-10-29 13:21:44,374 INFO Searching seed=101 candidates=121; reused former test labels, exploratory scores
+2026-10-29 13:21:49,779 INFO seed=101 finished 25/121 candidates
+2026-10-29 13:21:55,040 INFO seed=101 finished 50/121 candidates
+2026-10-29 13:21:58,155 INFO seed=101 finished 75/121 candidates
+2026-10-29 13:22:03,808 INFO seed=101 finished 100/121 candidates
+2026-10-29 13:22:10,460 INFO Searching seed=202 candidates=121; reused former test labels, exploratory scores
+2026-10-29 13:22:15,622 INFO seed=202 finished 25/121 candidates
+2026-10-29 13:22:20,979 INFO seed=202 finished 50/121 candidates
+2026-10-29 13:22:24,167 INFO seed=202 finished 75/121 candidates
+2026-10-29 13:22:30,147 INFO seed=202 finished 100/121 candidates
+2026-10-29 13:22:36,881 INFO Searching seed=303 candidates=121; reused former test labels, exploratory scores
+2026-10-29 13:22:42,117 INFO seed=303 finished 25/121 candidates
+2026-10-29 13:22:47,419 INFO seed=303 finished 50/121 candidates
+2026-10-29 13:22:50,465 INFO seed=303 finished 75/121 candidates
+2026-10-29 13:22:55,935 INFO seed=303 finished 100/121 candidates
+2026-10-29 13:23:03,689 INFO Fresh-noise diagnostic condition completed: clean
+2026-10-29 13:23:04,035 INFO Fresh-noise diagnostic condition completed: gaussian_30_6101
+2026-10-29 13:23:04,726 INFO Fresh-noise diagnostic condition completed: gaussian_30_6202
+2026-10-29 13:23:05,410 INFO Fresh-noise diagnostic condition completed: gaussian_30_6303
+2026-10-29 13:23:06,117 INFO Fresh-noise diagnostic condition completed: gaussian_30_6404
+2026-10-29 13:23:06,831 INFO Fresh-noise diagnostic condition completed: gaussian_30_6505
+2026-10-29 13:23:07,218 INFO Fresh-noise diagnostic condition completed: gaussian_20_6101
+2026-10-29 13:23:07,893 INFO Fresh-noise diagnostic condition completed: gaussian_20_6202
+2026-10-29 13:23:08,585 INFO Fresh-noise diagnostic condition completed: gaussian_20_6303
+2026-10-29 13:23:09,231 INFO Fresh-noise diagnostic condition completed: gaussian_20_6404
+2026-10-29 13:23:09,927 INFO Fresh-noise diagnostic condition completed: gaussian_20_6505
+2026-10-29 13:23:10,297 INFO Fresh-noise diagnostic condition completed: gaussian_10_6101
+2026-10-29 13:23:10,969 INFO Fresh-noise diagnostic condition completed: gaussian_10_6202
+2026-10-29 13:23:11,658 INFO Fresh-noise diagnostic condition completed: gaussian_10_6303
+2026-10-29 13:23:12,386 INFO Fresh-noise diagnostic condition completed: gaussian_10_6404
+2026-10-29 13:23:13,022 INFO Fresh-noise diagnostic condition completed: gaussian_10_6505
+2026-10-29 13:23:13,406 INFO Fresh-noise diagnostic condition completed: gaussian_0_6101
+2026-10-29 13:23:14,139 INFO Fresh-noise diagnostic condition completed: gaussian_0_6202
+2026-10-29 13:23:14,844 INFO Fresh-noise diagnostic condition completed: gaussian_0_6303
+2026-10-29 13:23:15,527 INFO Fresh-noise diagnostic condition completed: gaussian_0_6404
+2026-10-29 13:23:16,239 INFO Fresh-noise diagnostic condition completed: gaussian_0_6505
+2026-10-29 13:23:16,606 INFO Fresh-noise diagnostic condition completed: gaussian_-5_6101
+2026-10-29 13:23:17,289 INFO Fresh-noise diagnostic condition completed: gaussian_-5_6202
+2026-10-29 13:23:17,939 INFO Fresh-noise diagnostic condition completed: gaussian_-5_6303
+2026-10-29 13:23:18,627 INFO Fresh-noise diagnostic condition completed: gaussian_-5_6404
+2026-10-29 13:23:19,368 INFO Fresh-noise diagnostic condition completed: gaussian_-5_6505
+2026-10-29 13:23:19,777 INFO Fresh-noise diagnostic condition completed: impulse_20_6101
+2026-10-29 13:23:20,523 INFO Fresh-noise diagnostic condition completed: impulse_20_6202
+2026-10-29 13:23:21,264 INFO Fresh-noise diagnostic condition completed: impulse_20_6303
+2026-10-29 13:23:22,031 INFO Fresh-noise diagnostic condition completed: impulse_20_6404
+2026-10-29 13:23:22,728 INFO Fresh-noise diagnostic condition completed: impulse_20_6505
+2026-10-29 13:23:23,077 INFO Fresh-noise diagnostic condition completed: impulse_10_6101
+2026-10-29 13:23:23,798 INFO Fresh-noise diagnostic condition completed: impulse_10_6202
+2026-10-29 13:23:24,533 INFO Fresh-noise diagnostic condition completed: impulse_10_6303
+2026-10-29 13:23:25,285 INFO Fresh-noise diagnostic condition completed: impulse_10_6404
+2026-10-29 13:23:26,014 INFO Fresh-noise diagnostic condition completed: impulse_10_6505
+2026-10-29 13:23:26,436 INFO Fresh-noise diagnostic condition completed: impulse_0_6101
+2026-10-29 13:23:27,169 INFO Fresh-noise diagnostic condition completed: impulse_0_6202
+2026-10-29 13:23:27,906 INFO Fresh-noise diagnostic condition completed: impulse_0_6303
+2026-10-29 13:23:28,647 INFO Fresh-noise diagnostic condition completed: impulse_0_6404
+2026-10-29 13:23:29,389 INFO Fresh-noise diagnostic condition completed: impulse_0_6505
+2026-10-29 13:23:31,012 INFO Completed: 363 fits; target P={'key': 'P_K60_L0.25_B0.1', 'method': 'P', 'k': 60, 'lambda': 0.25, 'beta': 0.1, 'target_score': 0.9071151805609944, 'clean_score': 0.9329507688899925}, B2={'key': 'B2_K60_L0_B0.05', 'method': 'B2', 'k': 60, 'lambda': 0.0, 'beta': 0.05, 'target_score': 0.8997250671726768, 'clean_score': 0.9382211299314758}

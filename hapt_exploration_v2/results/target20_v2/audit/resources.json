@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-29T05:21:40.198903+00:00",
+  "finished_utc": "2026-10-29T05:23:29.550940+00:00",
+  "wall_seconds": 109.35116679999987,
+  "sampled_peak_rss_bytes": 199847936,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpu_count": 24,
+  "total_memory_bytes": 16573128704,
+  "available_memory_bytes_end": 2998636544
+}
